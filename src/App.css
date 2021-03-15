@@ -1,0 +1,100 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+    width: 40%;
+}
+
+#image {
+    width: 173px;
+    height: 160px;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    background-color: crimson;
+    height: 50px;
+}
+
+header button {
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+header img {
+    margin-right: 451px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.section img {
+    width: 300px;
+    height: 300px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
